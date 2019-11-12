@@ -134,7 +134,7 @@
                                         {{ 'Reject' }}
                                     </a>
                                 </div>
-                                @endif
+                            @endif
 
 
                             <a style="margin-top:20px;" class="btn btn-default" href="{{ url()->previous() }}">
@@ -148,9 +148,6 @@
 {{--                            </div>--}}
 
                         </div>
-{{--                        <a style="margin-top:20px;" class="btn btn-default" href="{{ url()->previous() }}">--}}
-{{--                            {{ trans('global.back_to_list') }}--}}
-{{--                        </a>--}}
 
                         <ul class="nav nav-tabs">
 
